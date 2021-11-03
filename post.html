@@ -43,11 +43,14 @@
 	</head>
 	<body>
 
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blogs</a>
-      <a href="contact.html">Contact Me</a>
-    </div>
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="resume.html">Resume</a>
+			<a href="blog.html">Blogs</a>
+			<a href="projects.html">Projects</a>
+			
+		</div>
+	
  
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.2">
 		<div class="overlay"></div>
@@ -59,6 +62,7 @@
 							<div class="profile-thumb" style="background: url(images/postgithub.png);"></div>
 							<h1><span>Githubpages with git</span></h1>
 							<p><a href="blog.html" class="btn btn-default btn-lg">Back to posts</a></p>
+							
 							</p>
 						</div>
 					</div>
@@ -81,44 +85,34 @@
 				<div class="col-md-8">
 					
 					<h2>How to make Githubpages with git</h2>
-					<p>Ada beberapa cara untuk membuat githubpages, salah satunya yaitu melalui git.</p>
-					<p align="justify">>
-						Langkah-langkah membuat githubpages dengan git 
+					<p align="justify">
+						How to make githubpages with git:
 						<br></br>
-						1.	Langkah pertama yang dilakukan yaitu dengan mencari template HTML & CSS. Saya mendapatkan template di website FreeHTML5.co . Saya memilih template dengan tema yang simple, minimalistik, namun tetap berkesan.
+						1. Select any folder directory.
 						<br></br>
-						2.	Setelah kita mendownload templatenya, kita ekstrak filenya. file template saya bernama “profile”, maka saya lakukan ekstraksi terhadap file tersebut ke directory yang sama.
-						<br></br>					
-						3.	Langkah selanjutnya adalah dengan melakukan editing terhadap templatenya seperti mengganti tulisan, judul, stylesheet,dll . Keterangan tentang apa saja yang telah di-edit bisa dilihat di snippet code di bawah.
+						2. Go to github, make a new repository. copy the repository url.
 						<br></br>						
-						4.	Login github, lalu buka www.github.com/new untuk membuat repositori baru kosongan. Isikan nama repositorinya dan deskripsinya sesuai dengan konteks. 
+						3. After that, go to the selected local directory and click "git bash here"
 						<br></br>
-						5.	Klik kanan ke sebuah direktori, lalu tekan “Git Bash Here” untuk membuka CLI dari github dan menyambungkan working directorynya.
+						5. Type "git clone (your repo url)". Git clone is used to copy an existing Git repository into a new local directory. The Git clone action will create a new local directory for the repository. Git clone also include repository initialization.	
 						<br></br>
-						6.	Langkah selanjutnya yaitu dengan melakukan cloning terhadap repositori kosong tersebut menggunakan perintah “git clone” . pada dasarnya perintah tersebut melakukan cloning dari repository github ke local dan melakukan inisialisasi.
+						6.	You will find a new folder named same as your github repository. there will be hidden file inside the folder named .git, this indicates that the folder has been initialized by git clone command. you can make the HTML/CSS script from there.
 						<br></br>					
-						7.	Akan terbuat sebuah folder baru bernama repositori dari github. Jika kita lihat isi folder direktori di bawah, maka akan ada hidden folder bernaam .git . hidden folder ini menandakan bahwa folder tersebut telah dilakukan inisialisasi.
+						7.	Go to the local repository folder, then type "git add."
 						<br></br>
-						8.	Setelah itu kita masuk ke folder  (nama repositori) lalu masukkan command “git add . “ . ini berfungsi untuk menambahkan semua file dan directory untuk nantinya dilakukan commit.
+						8.	Then, commit all of the file inside the local repository by typing "git commit -m (commit message)"
 						<br></br>
-						9.	Setelah itu kita lakukan commit terhadap filenya dengan cara memasukkan command “git commit – m “first commit” . karena ini merupakan commit pertama kita, maka kita masukkan saja message first commit.
+						9.	After that, push the commited file to the github repository by typing "git push -u origin (branch-name)"
 						<br></br>																							
-						10.	Kita bisa mengecek apakah semua file sudah dilakukan commit dengan cara menuliskan comman “git status”
+						10.	Check if the files have been pushed by going to your github repository.
 						<br></br>
-						11.	Kita juga bisa melihat log dari beberapa commit dengan cara menuliskan git log
+						11.	The next step is to create  githubpages environment. In your github repository, go to setting -> pages -> set your branch -> save.
 						<br></br>
-						12.	setelah local repository berhasil dicommit, saatnya untuk melakukan push ke github. Langkahnya adalah dengan cara menuliskan git push –u origin (branch). Di kasus saya, branch nya bernama main.
-						<br></br>				
-						13.	Jika berhasil, maka kita bisa melihat hasil dari file yang telah kita commit di server github repository.
+						12. Check the githubpages by going to the domain url.
 						<br></br>
-						14.	Langkah selanjutnya adalah membuat githubpages. Di menu repository, klik tombol setting.
-						<br></br>	
-						15.	Jika sudah maka masuk ke Pages - > atur branch -> save. Akan terlihat URL yang nantinya menjadi domain site kita di repositori github.
-						<br></br>
-						16.	 Kita coba masuk ke url tersebut. Dan hasilnya jika berhasil maka akan terlihat websitenya sesuai dengan script yang kita miliki
-						<br></br>
-						
-					
+						<p> For further information, please download the pdf file.</p>
+			
+						<p><a href="https://drive.google.com/file/d/1OljSXz9yXYbJTL2DuehWEkAbw6dCyF2Q/view" class="btn btn-default">Download PDF File</a></p>
 						
 					</p>						
 					
